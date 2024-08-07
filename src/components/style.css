@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    width: 100%;
+    height: 20%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.add_task_input{
+    width: 30%;
+    height: 50%;
+    padding-left: 10px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+}
+
+.add_btn{
+    width: 15%;
+    height: 50%;
+    background-color: navy;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.result_body{
+    width: 70%;
+    height: 78%;
+    border: 2px solid navy;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow: auto;
+}
+
+.todo{
+    width: 100%;
+    min-height: 15%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit_input{
+    width: 80%;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.todo_task{
+    width: 80%;
+    height: 100%;
+    background-color: blue;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-left: 10px;
+}
+
+.todo_btns{
+    width: 18%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit_btn, .delete_btn{
+    width: 47%;
+    height: 100%;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.edit_btn{
+    background-color: green;
+}
+.delete_btn{
+    background-color: red;
+}
